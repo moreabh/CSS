@@ -1,0 +1,16 @@
+ div{
+    background: red;
+} 
+ .p{
+    background: mediumaquamarine;
+} 
+#a {
+    background: violet !important;
+    
+}
+  .p, #a, div{
+    background: pink;
+}   
+*{
+    background: darkcyan;
+}
