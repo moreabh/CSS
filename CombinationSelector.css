@@ -1,0 +1,62 @@
+/* h1+p{
+    background: gold;
+}
+div+div~section+p{
+    background: gray;
+} */
+
+/* div>div>p{
+    background: gray;
+} 
+
+div>div>section+p{
+    background: blueviolet;
+}
+div+p{
+    background: orange;
+}
+div>div>section>p{
+    background: silver;
+}
+div>div h1{
+    background: greenyellow;
+} */
+
+/* p::first-letter{
+ font-size: 30px;
+}
+p::first-line{
+    font-size: 20px;
+}
+p::selection{
+    background:rgb(223, 215, 102);
+    color: red;
+}
+p::before{
+    content: "before paragraph ";
+    background: yellow;
+}
+p::after{
+    content: "After Paragraph";
+    background-color: yellow;
+} */
+
+/* li::marker{
+    content: "⬆️";
+} */
+
+ul>#a::marker{
+    content: "🥭";
+}
+ul>#b::marker{
+    content: "🍌";
+}
+ul>#c::marker{
+    content: "🍉";
+}
+ul>#d::marker{
+    content: "🍒";
+}
+ul>#e::marker{
+    content: "🍎";
+}
