@@ -1,0 +1,60 @@
+/* 1 */
+p{
+    color: lightseagreen;
+}
+/* 2 */
+#special{
+    font-size: 20px;
+}
+/* 3 */
+.highlight{
+    background: black;
+}
+/* 4 */
+h1, p, span{
+    color: blue;
+}
+/* 5 */
+*{
+    border: solid; 
+}
+/* 6 */
+div p{
+    color: brown;
+}
+/* 7 */
+div>p{
+    color: rgb(255, 0, 195);
+}
+/* 8 */
+h1+p{
+    background:pink;
+}
+/* 9 */
+h2~p{
+    color: tomato;
+}
+/* 10 */
+p::first-letter{
+    font-size: 30px;
+}
+/* 11 */
+p::first-line{
+    color: darkgreen;
+}
+/* 12 */
+h1::before{
+    content: "➡️";
+}
+/* 13 */
+h1::after{
+    content: "⬅️";
+}
+/* 14 */
+li::marker{
+    color:red;
+}
+/* 15 */
+p::selection{
+    color: gold;
+}

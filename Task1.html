@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task1.css">
+</head>
+<body>
+    <!-- Select all <p> element
+    1)Use a tag selector(p)to change the text color of all paragraph -->
+    <p>This is a Paragraaph</p>
+    <p>This is a another Paragraph</p>
+
+    <!-- 2)Select an element using id
+      2) Use an id selector (#special)  to change the font size of the paragraph-->
+      <p id="special">This is a special paragraph</p>
+
+      <!-- 3)Select element using a class 
+        use a class selector (.highlight) to set the background color-->
+        <p class="highlight">Hilighted Text</p>
+        <p class="highlight">Another highlighted text</p>
+
+        <!-- 4)Select multiple element(Grouping Selector)
+         use a grouping selector(h1, p, span) to set the text color to blue  -->
+         <h1>Title</h1>
+         <p>Some Text</p>
+         <span> Inline text</span>
+
+         <!--5) Use the universal selector
+          Use the universal selector(*) to add a border to all element
+          Types of border:- 1) solid 2) Dashed -->
+        <p>Some Text</p>
+        <div> A div container.</div>
+
+        <!-- 6)Descendant selector
+         use the decendant selector (div p)to style only the <p> inside <div>  -->
+        <div>
+            <p>Inside a div</p>
+        </div>
+        <p>Outside a div</p>
+
+        <!-- 7)Child selector
+         use the child selector (div>p) to style only the direct child of (div) -->
+         <div>
+            <p>Dirct child paragraph</p>
+            <section>
+                <p>Nestead Paragraph</p>
+            </section>
+         </div>
+
+         <!-- 8)Adjacent Sibling selector 
+          Use the adjecent sibling selector (h1+p)to style only the first <p>after <h1> -->
+            <h1>Heading</h1>
+            <p>First Paragraaph</p>
+            <p>Second Paragraaph</p>
+
+            <!-- 9)General Sibling selector 
+             use the general sibling selector (h2~p) to style all <p> after <h2>-->
+            <h2>subHeading</h2>
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+
+            <!-- 10)First line pseudo-element
+             Use::first-letter to make the first letter bold and larger -->
+             <p>This is an example paragraph</p>
+
+             <!-- 11)First line pseudo-element
+              Use::first-line to change the color of the first line -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat reprehenderit magni officia veritatis libero accusamus. Tempora voluptatum sapiente autem, impedit vero incidunt quo neque sint eius porro, molestiae culpa.</p>
+            
+              <!-- 12)Before pseudo element
+                Use::before to insert"➡️" before the heading -->
+                <h1>Heading</h1>
+
+                <!-- 13)After pseudo element 
+                 Use::after to insert "⬅️" after the heading -->
+                 <h1>Heading</h1>
+                 <!-- 14)Marker pseudo element
+                  Use::marker to change the bullet points to read -->
+                  <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                  </ul>
+
+                  <!-- 15)Selection pseudo-element
+                   Use::selection to change the backgroung color  when the text is selected -->
+                   <p>Select this text to see an effect</p>
+    </body>
+</html>

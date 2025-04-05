@@ -45,7 +45,7 @@ p::after{
     content: "⬆️";
 } */
 
-ul>#a::marker{
+/* ul>#a::marker{
     content: "🥭";
 }
 ul>#b::marker{
@@ -59,4 +59,55 @@ ul>#d::marker{
 }
 ul>#e::marker{
     content: "🍎";
+} */
+
+/*  */
+/* input:focus{
+    background: #0ac0a1;
+    color: yellow;
 }
+p{
+    background: gray;
+    display: none;
+}
+div{
+    background-color: gold;
+}
+div:hover>p{
+    display: block;
+}
+input:required{
+    background: greenyellow;
+    color: black;
+} */
+/* body:first-child{
+    background: #89cc0c;
+}
+section:last-child{
+    background: #0aba4e;
+}
+
+section:nth-child(3){
+    background: #590aba;
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background: burlywood;
+}
+tr:nth-child(odd){
+    background: greenyellow;
+} */
+
+[title*="2"]{
+    background: red;
+}
+[title^="a"]{
+    background: rgb(0, 255, 13);
+}
+[title|="this"]{
+    background: rgb(223, 48, 211);
+}
+
+
