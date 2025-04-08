@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+/* p{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+} */
+
+ /*  shadpw(x , Y, blur, color) */
+#a{
+   
+    font-size: 4em;
+    font-weight: 900;
+    text-align:center;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -3px -3px 3px gray;
+
+}
+#b{
+    font-size: 6em;
+    font-weight: 900;
+    text-align:center;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -3px -3px 3px gray;
+
+    /* text decoration:- */
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+}
+
+/* remove underline of anchor tag */
+a{
+    font-size: 2em;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+/* text wrap  & text no wrap*/
+#c{
+    font-size: 2em;
+    text-wrap: nowrap;
+}
+div{
+    height: 200px ;
+    width:200px ;
+    font-size: 4em;
+    font-weight: 900;
+    text-align:center;
+    background:lightcoral;
+    border: 10px solid ;
+    padding: 10px;
+    margin: 0%;
+    
+    /*box sizing : border box; 
+   1) width & height 
+       2) display
+       3) paddding
+        4)margin
+        5)position*/
+   
+
+}
+ /*paragraph  */
+/* p{
+      text-indent: 50px;
+ } */
+

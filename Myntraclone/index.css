@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 7vh;
+    background:rgb(255,255,230);
+    display: flex;
+    align-items: center;
+}
+#c{
+    display: flex;
+    width: 20%;
+    /* align-content: center; */
+    justify-content:space-evenly;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 255, 230);
+}
+/* :not(.logo) is used for select element other than except Logo */
+div:not(.logo){
+    display: flex;
+    width: 85%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+#a{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     /* background: #000; */
+     height: 50vh;
+    width: 100vw;
+    /* border: solid;   */
+    
+}
+#b{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 27vh;
+    width: 100vw;   
+}
+#d{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height:45vh;
+   width: 100vw;
+   /* background: #000; */
+}
+p{   
+    justify-content: center;
+    align-items: center;
+    height:45vh;
+    width: 100vw;
+   /* background: #000; */
+   justify-content: space-evenly;
+}
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    width: 100vw;
+    /* border: solid; */
+}
+#e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.b{
+    display:flex;
+    justify-content:space-around;
+    overflow: auto;
+    flex-wrap: wrap;
+    height: 500px;
+    /* padding: 5%; */
+   
+}
+.b>div{
+    
+    /* background-image: linear-gradient(aqua , white); */
+    /* border: solid; */
+    padding: 0.5%;
+    width:  200px;
+    height: 100px;
+}
+
+
+
+
+
+
+
