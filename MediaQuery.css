@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   background:orange;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+}
+@media (max-width: 1200px) {
+    .enq{
+        display: none;
+    }
+    
+}

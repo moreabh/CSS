@@ -63,10 +63,11 @@ div:not(.logo){
 p{   
     justify-content: center;
     align-items: center;
-    height:45vh;
+    height:40vh;
     width: 100vw;
    /* background: #000; */
    justify-content: space-evenly;
+   padding: 40px;
 }
 .a{
     display: flex;
@@ -81,23 +82,15 @@ p{
     align-items: center;
     width: 100vw;
 }
-.b{
-    display:flex;
-    justify-content:space-around;
-    overflow: auto;
-    flex-wrap: wrap;
-    height: 500px;
-    /* padding: 5%; */
-   
-}
 .b>div{
     
-    /* background-image: linear-gradient(aqua , white); */
-    /* border: solid; */
-    padding: 0.5%;
-    width:  200px;
-    height: 100px;
+    display: block;
+   justify-self: center;
+   align-items: center;
+   flex-wrap: wrap;
+   overflow: auto;
 }
+
 
 
 
