@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    width: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 10s;
+    border-radius: 20px;
+    animation-iteration-count: infinite;
+
+}
+.box1{
+    width: 60vh;
+    height: 60vh;
+    background: #efcfcf;
+}
+.box2{
+    width:  50vh;
+    height: 50vh;
+    background: #eebdbd;
+ 
+}
+.box3{
+    width:  40vh;
+    height: 40vh;
+    background: #f1a6a6;
+}
+.box4{
+    width:  30vh;
+    height: 30vh;
+    background: #ed9393;
+}
+.box5{
+    width: 20vh;
+    height:20vh;
+    background: #e98888;
+}
+.box6{
+    width:  10vh;
+    height: 10vh;
+    background: #f97575;
+}
+
+
+@keyframes box {
+    to{
+        transform: rotate(360deg);
+    }
+  
+    
+}
